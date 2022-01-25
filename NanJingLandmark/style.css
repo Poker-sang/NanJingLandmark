@@ -1,0 +1,111 @@
+header>img {
+    width: 100%;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li>a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li>a:hover {
+    background-color: #222;
+}
+
+li>a:active {
+    background-color: #111;
+}
+
+article,
+.Footer {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.Header {
+    position: absolute;
+    display: block;
+    height: 100px;
+    right: 0%;
+    left: 30%;
+}
+
+.Header p {
+    margin: 0px;
+    display: inline;
+}
+
+.HChinese {
+    position: absolute;
+    font-family: '宋体';
+    font-size: 50px;
+    bottom: 10px;
+    right: 60%;
+}
+
+.HEnglish {
+    position: absolute;
+    background-color: white;
+    bottom: 0%;
+    right: 51%;
+}
+
+.HLocSmall {
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    left: 51%;
+}
+
+.HRect {
+    position: absolute;
+    background-color: black;
+    bottom: 0%;
+    left: 51%;
+    right: 0%;
+    height: 10px;
+    z-index: -1;
+}
+
+.HLocLarge {
+    position: absolute;
+    color: gray;
+    font-size: 70px;
+    bottom: 3.5px;
+    right: 10%;
+}
+
+.Content,
+.Footer {
+    position: relative;
+    top: 120px;
+}
+
+
+.Content>p {
+    text-indent: 36px;
+}
+
+.HImgFooter>p {
+    display: inline-block;
+    width: 80%;
+}
+
+.HImgFooter>img {
+    width: calc(20% - 20px);
+}
